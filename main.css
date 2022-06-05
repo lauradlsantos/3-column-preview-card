@@ -9,15 +9,10 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  align-self: center;
-  justify-self: center;
-  margin: 45px 45px 45px 45px;
   color: #fff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-width: 25px;
-  align-items: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container .title {
@@ -30,17 +25,14 @@ body {
 }
 .container .sedans {
   background: hsl(31, 77%, 52%);
-  padding: 20px;
 }
 
 .container .SUV {
   background: hsl(184, 100%, 22%);
-  padding: 20px;
 }
 
 .container .luxury {
   background: hsl(179, 100%, 13%);
-  padding: 20px;
 }
 
 .container .button {
