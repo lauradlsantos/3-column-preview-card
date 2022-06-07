@@ -4,46 +4,63 @@
 }
 
 body {
+  width: 100vw;
+  min-height: 100vh;
   background: hsl(0, 0%, 95%);
   font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
 }
 
 .container {
   color: #fff;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border: 1px solid green;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-.container .title {
+.card {
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+}
+
+.title {
   font-family: "Big Shoulders Display", cursive;
+  line-height: 2em;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
-.container .text {
+.text {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
+  margin-bottom: ;
 }
-.container .sedans {
+.sedans {
   background: hsl(31, 77%, 52%);
 }
 
-.container .SUV {
+.SUV {
   background: hsl(184, 100%, 22%);
 }
 
-.container .luxury {
+.luxury {
   background: hsl(179, 100%, 13%);
 }
 
-.container .button {
+.button {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 1em;
-  border: solid 1px white;
+  border: solid 2px white;
   color: #fff;
   background-color: transparent;
   padding: 5%;
-  border-radius: 25%;
+  border-radius: 60px;
 }
 .attribution {
   font-size: 11px;
